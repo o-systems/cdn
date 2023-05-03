@@ -1,0 +1,78 @@
+body{
+  font-size: 1em;
+  background: url({% static 'images/zedprint-svg.svg' %});
+}
+#mapp {min-height:400px; width: 100%; }
+  .navbar-item:hover{
+    color: #242D52 !important;
+  }
+  .event-list{
+    list-style:none;
+    text-decoration: none;
+  }
+  #brand-name{
+    color:white;
+  }
+ 
+  .menu-list li a{
+    background-color:fff !important;
+  }
+  .progress-hidden{
+    display: none !important;
+  }
+  .is-active{
+    color: #242C53 !important;
+    font-weight:bold !important;
+  }
+  .is-active-shop{
+    color: #242D52 !important;
+    font-weight: bold;
+  }
+  #rqf{
+    display:none
+  }
+  #rfq-message{
+    display: none;
+  }
+ 
+  #follow:hover{
+    cursor:pointer;
+    color:#EC5E39
+  }
+  /* .is-active-rfq{
+    display:block
+  } */
+  .is-active-tab{display:block}
+  .pagination-link.is-current{
+    background-color: #EC5E39;
+    border:none;
+    border-radius:50%;
+  }
+  .pagination-link{
+    border: 0.1em solid rgba(0, 0, 0, 0.2);
+    border-radius:50%;
+  }  
+  #tab-content p {
+    display: none;
+  }
+  #tab-content p.is-active-tab {
+    display: block;
+  }
+  .tabs li a .is-active-tab {
+    color:red !important;
+  }
+  #rfq-progress, #rfq-confirm{
+    display: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.regMessage{
+  display:none;
+}
+#order-message{
+  display: none;
+}
